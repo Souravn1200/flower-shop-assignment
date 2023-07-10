@@ -1,0 +1,61 @@
+/* Shared Styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.primary-btn {
+
+    display: flex;
+    padding: 15px 33px;
+    border-radius: 5px;
+    background: #E55473;
+    color: aliceblue;
+    border: none;
+}
+
+/* Shared Styles Ends */
+
+
+
+
+/* Container Style Stars */
+
+.container {
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    height: 520px;
+}
+
+.banner {
+    margin: 70px 300px 100px auto;
+
+
+}
+
+.banner h2 {
+    display: flex;
+    height: auto;
+    width: auto;
+    color: #272727;
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.banner p {
+    display: flex;
+    margin-top: 20px;
+    height: 90px;
+    width: 500px;
+}
+
+.banner-img img {
+    height: 500px;
+    padding-top: 20px;
+
+}
+
+/* Container Style Ends */
