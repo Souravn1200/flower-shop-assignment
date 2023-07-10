@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
+    
 }
 
 .primary-btn {
@@ -15,6 +16,24 @@
     color: aliceblue;
     border: none;
 }
+
+.featured-iteam .card-common {
+
+    margin-top: 20px;
+
+}
+
+.featured-iteam .card-common p {
+    text-align: center;
+    padding: 10px;
+}
+
+.featured-iteam .card-common img {
+    height: 300px;
+    width: 220px;
+    padding: 20px 20px 0px 20px;
+}
+
 
 /* Shared Styles Ends */
 
@@ -59,3 +78,56 @@
 }
 
 /* Container Style Ends */
+
+
+/* Featured Iteams Start */
+
+.featured-section {}
+
+.featured-heading {
+    margin-top: 90px;
+
+}
+
+.featured-heading p,
+h3 {
+    text-align: center;
+    padding: 5px;
+
+}
+
+.featured-iteam {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+
+.featured-iteam .card1 img {
+
+    border-radius: 10px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-iteam .card2 img {
+
+    border-radius: 10px;
+    background: rgba(5, 151, 160, 0.15)
+}
+
+
+.featured-iteam .card3 img {
+
+    border-radius: 10px;
+   background-color:  rgba(71, 125, 17, 0.15);
+
+
+    
+}
+
+
+
+
+
+/* Featured Iteam Ends */
