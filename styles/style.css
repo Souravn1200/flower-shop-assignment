@@ -3,8 +3,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Lato', sans-serif;
-    
+    font-family: lato, sans-serif;
+    color: #272727;
+    font-style: normal;
+    font-weight: 800;
+
+
 }
 
 .primary-btn {
@@ -80,6 +84,10 @@
 /* Container Style Ends */
 
 
+
+
+
+
 /* Featured Iteams Start */
 
 .featured-section {}
@@ -120,14 +128,65 @@ h3 {
 .featured-iteam .card3 img {
 
     border-radius: 10px;
-   background-color:  rgba(71, 125, 17, 0.15);
+    background-color: rgba(71, 125, 17, 0.15);
 
 
-    
+
+}
+
+/* Featured Iteam Ends */
+
+
+
+
+
+
+
+/*  Sale offer  */
+
+
+.sale-offer {
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+.sale-offer-heading {
+    text-align: center;
+    margin-right: 150px;
+
+}
+
+.sale-offer-heading .highlighter {
+
+    color: #E55473;
+}
+
+.sale-offer-heading h3 {
+    font-size: 30px;
+}
+
+.sale-offer-heading p {
+    margin-top: 10px;
+}
+
+.sale-offer button {
+
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.sale-offer img{
+    height: 300px;
 }
 
 
 
 
-
-/* Featured Iteam Ends */
+/* End Sale Offer */
