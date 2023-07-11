@@ -39,19 +39,23 @@
 }
 
 
-.featured-heading, .socials-heading {
+.featured-heading,
+.socials-heading {
     margin-top: 90px;
 
 }
 
 .featured-heading p,
-h3, .socials-heading p, h3{
+h3,
+.socials-heading p,
+h3 {
     text-align: center;
     padding: 5px;
 
 }
 
-.featured-iteam, .social-image {
+.featured-iteam,
+.social-image {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
@@ -183,7 +187,7 @@ h3, .socials-heading p, h3{
 
 }
 
-.sale-offer img{
+.sale-offer img {
     height: 300px;
 }
 
@@ -194,13 +198,65 @@ h3, .socials-heading p, h3{
 
 /* Social Images */
 
-.social-image{
-    margin-top: 35px;
+.social-image {
+    margin: 35px;
+    text-align: center;
+
 }
 
-.social-image .si-card img{
+.social-image .si-card img {
 
     height: 90%;
     width: 90%;
-    margin-left: 19px;
+    margin: 0px auto;
+    padding: 0px;
+    display: inline-block;
+
+}
+
+
+/* Latest Deal */
+
+
+
+.latest-deal-section {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.latest-deal-section img {
+
+    width: 1100px;
+    height: 300px;
+}
+
+.deal-texts {
+
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    
+}
+
+.deal-texts h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.deal-texts p{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.deal-texts .deal-button{
+    display: flex;
+}
+
+.deal-button input {
+    width: 500px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: none;
 }
