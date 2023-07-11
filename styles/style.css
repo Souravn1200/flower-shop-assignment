@@ -62,6 +62,11 @@ h3 {
 
 }
 
+.sale-offer-heading .highlighter, .shop-info .highlighter {
+
+    color: #E55473;
+}
+
 
 /* Shared Styles Ends */
 
@@ -167,10 +172,7 @@ h3 {
 
 }
 
-.sale-offer-heading .highlighter {
 
-    color: #E55473;
-}
 
 .sale-offer-heading h3 {
     font-size: 30px;
@@ -259,4 +261,34 @@ h3 {
     margin-right: 10px;
     border-radius: 2px;
     border: none;
+}
+
+
+/* Footer */
+
+.shop-info {
+    margin-top: 70px;
+    padding-top: 100px;
+    height: 200px;
+    width: auto;
+    background: #111010;
+    text-align: center;
+}
+
+.shop-info h2, p{
+   
+   padding: 15px 0px;
+   
+}
+
+.shop-info h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.shop-info p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 100px;
+    
 }
