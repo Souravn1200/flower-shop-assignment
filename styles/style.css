@@ -73,7 +73,7 @@ h3 {
 
 }
 
-.sale-offer-heading .highlighter, .shop-info .highlighter {
+.sale-offer-heading .highlighter, .shop-info .highlighter , .send-flowers .highlighter{
 
     color: #E55473;
 }
@@ -212,6 +212,54 @@ h3 {
 
 /* End Sale Offer */
 
+
+
+
+ /* In this area i am doing the bonus part. PARALLAX by just css. 
+ Permission Granted by Some respected member of Support session. */
+
+
+ .parallax {
+    
+    background-image: url('../images/rsz_girl1.jpg');
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+ .parallax .send-flowers{
+    margin-top: 300px;
+    margin-right: 100px;
+   text-align: center;
+    float: right;
+    display: block
+
+  }
+
+.parallax .send-flowers h4 {
+
+   
+    color: #272727;
+    font-family: Lato;
+    font-size: 26px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.parallax .send-flowers button {
+    margin-top: 10px;
+    margin-left: 168px;
+}
+
+
+/* Parallax End */
+
+
+
+
 /* Social Images */
 
 .social-image {
@@ -227,6 +275,7 @@ h3 {
     margin: 0px auto;
     padding: 0px;
     display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
 }
 
