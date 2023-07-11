@@ -39,6 +39,26 @@
 }
 
 
+.featured-heading, .socials-heading {
+    margin-top: 90px;
+
+}
+
+.featured-heading p,
+h3, .socials-heading p, h3{
+    text-align: center;
+    padding: 5px;
+
+}
+
+.featured-iteam, .social-image {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+
 /* Shared Styles Ends */
 
 
@@ -91,25 +111,6 @@
 /* Featured Iteams Start */
 
 .featured-section {}
-
-.featured-heading {
-    margin-top: 90px;
-
-}
-
-.featured-heading p,
-h3 {
-    text-align: center;
-    padding: 5px;
-
-}
-
-.featured-iteam {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-
-}
 
 
 .featured-iteam .card1 img {
@@ -190,3 +191,16 @@ h3 {
 
 
 /* End Sale Offer */
+
+/* Social Images */
+
+.social-image{
+    margin-top: 35px;
+}
+
+.social-image .si-card img{
+
+    height: 90%;
+    width: 90%;
+    margin-left: 19px;
+}
