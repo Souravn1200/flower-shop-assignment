@@ -3,12 +3,23 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: lato, sans-serif;
     color: #272727;
     font-style: normal;
     font-weight: 800;
 
 
+}
+
+h1,h2,h3{
+
+    font-family: 'lato';
+    font-weight: 600;
+
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
 }
 
 .primary-btn {
@@ -119,19 +130,21 @@ h3 {
 
 /* Featured Iteams Start */
 
-.featured-section {}
+
 
 
 .featured-iteam .card1 img {
 
     border-radius: 10px;
     background: rgba(167, 33, 98, 0.15);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .featured-iteam .card2 img {
 
     border-radius: 10px;
-    background: rgba(5, 151, 160, 0.15)
+    background: rgba(5, 151, 160, 0.15);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 
@@ -139,6 +152,7 @@ h3 {
 
     border-radius: 10px;
     background-color: rgba(71, 125, 17, 0.15);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
 
 
@@ -261,6 +275,8 @@ h3 {
     margin-right: 10px;
     border-radius: 2px;
     border: none;
+    font-weight: 100;
+    
 }
 
 
@@ -289,6 +305,8 @@ h3 {
 .shop-info p{
     font-size: 15px;
     color: #fff;
-    font-weight: 100px;
+    font-weight: 100;
     
 }
+
+
